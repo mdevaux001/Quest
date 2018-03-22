@@ -1,14 +1,15 @@
 <?php
-
 require('connect_to_quest.php');
-
-
 ?>
 
 <!doctype html>
+
 <html>
+
 <?php require_once 'head.php'; ?>
+
 <body id="bodycreationcampagne">
+
 <?php require_once "headerQuest.php";
 $idCampagne = $_GET['id'];
 ?>
@@ -41,10 +42,11 @@ $idCampagne = $_GET['id'];
         <div class="form-group">
             <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
                 <label for="type">Choisir le type de questionnaire : </label>
-                <input type="radio" name="type" id="type" value="TLX"> TLX-NASA
+                <input type="radio" name="type" id="TLX" value="TLX"> TLX-NASA
+                <input type="radio" name="type" id="AD" value="AD"> AttrakDiff
+                <input type="radio" name="type" id="SUS" value="SUS"> SUS
             </div>
         </div>
-
         <div class="form-group">
             <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
                 <button type="submit" class="btn btn-default btn-primary"><span class="glyphicon glyphicon-plus"></span>

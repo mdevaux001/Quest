@@ -10,8 +10,6 @@ if (!empty($_POST['description']) and !empty($_POST['dateDebut'])and !empty($_PO
   $desc=$_POST['description'];
   $dateDeb=$_POST['dateDebut'];
   $dateFin=$_POST['dateFin'];
-  
-
 
   
   // Création d'un code à 4 charactères pour l'identifiant : 

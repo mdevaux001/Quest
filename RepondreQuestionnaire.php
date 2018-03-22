@@ -4,7 +4,6 @@
 
 require_once('connect_to_quest.php');
 
-//$idUSER=$_SESSION['idUSER'];
 $validation = false;
 
 if (!empty($_POST['code_qutaire']))
@@ -40,7 +39,8 @@ require_once('head.php');
         <p><?= $questionnaire['qutaire_desc']; ?></p>
     </div>
 </div>
-<form method="POST" action=".php">
+<form method="POST" action="TraiterRepondreQuestionnaire.php?qutaire=<?=$code?>">
+
     <?php
     //On selectionne les questions correspondantes dans la TABLE contient
 

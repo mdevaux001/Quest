@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="08c3c949-67b8-49e1-baba-7a58ed201338" name="Default" comment="">
+<<<<<<< HEAD
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExportCSV.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TraiterRepondreQuestionnaire.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CreerQuestionnaire.php" afterPath="$PROJECT_DIR$/CreerQuestionnaire.php" />
+      <change beforePath="$PROJECT_DIR$/PageAccueilUSER.php" afterPath="$PROJECT_DIR$/PageAccueilUSER.php" />
+      <change beforePath="$PROJECT_DIR$/RepondreQuestionnaire.php" afterPath="$PROJECT_DIR$/RepondreQuestionnaire.php" />
+      <change beforePath="$PROJECT_DIR$/TraiterCreerCampagne.php" afterPath="$PROJECT_DIR$/TraiterCreerCampagne.php" />
+=======
+    <list default="true" id="942f31c1-c76c-41e5-94d7-c798d23a1539" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/TraiterRepondreQuestionnaire.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/deconnexion.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exportCSV.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/script/popper.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/54b6b0a3-169d-461e-bc83-31f36392ebc7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CreationCompteExpe.html" afterPath="$PROJECT_DIR$/CreationCompteExpe.php" />
+      <change beforePath="$PROJECT_DIR$/CreerCampagne.php" afterPath="$PROJECT_DIR$/CreerCampagne.php" />
+      <change beforePath="$PROJECT_DIR$/CreerCompteUSER.html" afterPath="$PROJECT_DIR$/CreerCompteUSER.php" />
+      <change beforePath="$PROJECT_DIR$/CreerQuestionnaire.php" afterPath="$PROJECT_DIR$/CreerQuestionnaire.php" />
+      <change beforePath="$PROJECT_DIR$/CréerExperience.html" afterPath="$PROJECT_DIR$/CreerExperience.php" />
+      <change beforePath="$PROJECT_DIR$/PageAcceuilEXP.php" afterPath="$PROJECT_DIR$/PageAcceuilEXP.php" />
+      <change beforePath="$PROJECT_DIR$/PageAcceuilExperience.php" afterPath="$PROJECT_DIR$/PageAcceuilExperience.php" />
+      <change beforePath="$PROJECT_DIR$/PageAccueilUSER.php" afterPath="$PROJECT_DIR$/PageAccueilUSER.php" />
+      <change beforePath="$PROJECT_DIR$/RepondreQuestionnaire.php" afterPath="$PROJECT_DIR$/RepondreQuestionnaire.php" />
+      <change beforePath="$PROJECT_DIR$/TraiterCreationCompteEXP.php" afterPath="$PROJECT_DIR$/TraiterCreationCompteEXP.php" />
+>>>>>>> crv
+      <change beforePath="$PROJECT_DIR$/TraiterCreerQuestionnaire.php" afterPath="$PROJECT_DIR$/TraiterCreerQuestionnaire.php" />
+      <change beforePath="$PROJECT_DIR$/about.php" afterPath="$PROJECT_DIR$/about.php" />
+      <change beforePath="$PROJECT_DIR$/connexionQuest.php" afterPath="$PROJECT_DIR$/connexionQuest.php" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/head.php" afterPath="$PROJECT_DIR$/head.php" />
+      <change beforePath="$PROJECT_DIR$/headerQuest.php" afterPath="$PROJECT_DIR$/headerQuest.php" />
+      <change beforePath="$PROJECT_DIR$/img/quest.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/quest.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/quest_logo.png" afterPath="" />
+=======
+      <change beforePath="$PROJECT_DIR$/footerQuest.php" afterPath="$PROJECT_DIR$/footerQuest.php" />
+      <change beforePath="$PROJECT_DIR$/headerQuest.php" afterPath="$PROJECT_DIR$/headerQuest.php" />
+>>>>>>> crv
+      <change beforePath="$PROJECT_DIR$/indexQuest.php" afterPath="$PROJECT_DIR$/indexQuest.php" />
+=======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/CreerCampagne.php" afterPath="$PROJECT_DIR$/CreerCampagne.php" />
       <change beforePath="$PROJECT_DIR$/CreerQuestionnaire.php" afterPath="$PROJECT_DIR$/CreerQuestionnaire.php" />
@@ -9,6 +54,7 @@
       <change beforePath="$PROJECT_DIR$/PageAccueilUSER.php" afterPath="$PROJECT_DIR$/PageAccueilUSER.php" />
       <change beforePath="$PROJECT_DIR$/connexionQuest.php" afterPath="$PROJECT_DIR$/connexionQuest.php" />
       <change beforePath="$PROJECT_DIR$/headerQuest.php" afterPath="$PROJECT_DIR$/headerQuest.php" />
+>>>>>>> upstream/master
       <change beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
       <change beforePath="$PROJECT_DIR$/traiterConnexionQuest.php" afterPath="$PROJECT_DIR$/traiterConnexionQuest.php" />
     </list>
@@ -25,20 +71,68 @@
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="quest@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="quest@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="quest@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="quest: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+<<<<<<< HEAD
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="quest@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="quest: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="question: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+=======
+>>>>>>> crv
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+<<<<<<< HEAD
+      <file leaf-file-name="connexionQuest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/connexionQuest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
+=======
+      <file leaf-file-name="exportCSV.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exportCSV.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+              <folding>
+                <marker date="1521707580702" expanded="true" signature="199:241" ph="SELECT * FRO... questaire" />
+                <marker date="1521707580702" expanded="true" signature="563:575" ph="SELECT quest... question" />
+                <marker date="1521707580702" expanded="true" signature="563:589" ph="SELECT quest... contient" />
+                <marker date="1521707580702" expanded="true" signature="563:605" ph="SELECT quest... contient" />
+                <marker date="1521707580702" expanded="true" signature="563:649" ph="SELECT quest... contient" />
+                <marker date="1521707580702" expanded="true" signature="743:790" ph="SELECT quest... question" />
+                <marker date="1521707580702" expanded="true" signature="743:791" ph="SELECT quest... question" />
+                <marker date="1521707580702" expanded="true" signature="1062:1072" ph="SELECT usr F... " />
+                <marker date="1521707580702" expanded="true" signature="1062:1119" ph="SELECT usr F... reponse" />
+                <marker date="1521707580702" expanded="true" signature="1279:1338" ph="SELECT valeu... reponse" />
+              </folding>
+>>>>>>> crv
+=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="CreerQuestionnaire.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CreerQuestionnaire.php">
@@ -56,20 +150,103 @@
             <state relative-caret-position="608">
               <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
               <folding />
+>>>>>>> upstream/master
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <file leaf-file-name="TraiterCreerCampagne.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TraiterCreerCampagne.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <folding>
+                <marker date="1521449772643" expanded="true" signature="585:725" ph="INSERT INTO campagne... " />
+              </folding>
+=======
       <file leaf-file-name="CreerCompteUSER.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CreerCompteUSER.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
               <folding />
+>>>>>>> upstream/master
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="traiterConnexionQuest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <marker date="1521451468165" expanded="true" signature="351:422" ph="SELECT exp_i... experiment" />
+                <marker date="1521451468165" expanded="true" signature="920:974" ph="SELECT usr_i... user" />
+              </folding>
+=======
+      <file leaf-file-name="questaire" pinned="false" current-in-tab="false">
+        <entry file="das://table:/a195bc6b/58eae0c8-acdc-43a5-99b5-ff6244b18001/quest.questaire">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+>>>>>>> crv
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="TraiterRepondreQuestionnaire.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TraiterRepondreQuestionnaire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding>
+                <marker date="1521455228163" expanded="true" signature="186:224" ph="SELECT * FRO... contient" />
+                <marker date="1521455228163" expanded="true" signature="470:560" ph="INSERT INTO reponse... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExportCSV.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExportCSV.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <marker date="1521484357681" expanded="true" signature="268:281" ph="select * fro... " />
+                <marker date="1521484357681" expanded="true" signature="268:282" ph="select * fro... ${$_GET['nom_table']}" />
+                <marker date="1521484357681" expanded="true" signature="268:289" ph="select * fro... reponse" />
+                <marker date="1521484357681" expanded="true" signature="268:291" ph="select * fro... reponse" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepondreQuestionnaire.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RepondreQuestionnaire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1239">
+              <caret line="59" column="57" lean-forward="false" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
+              <folding>
+                <marker date="1521448848483" expanded="true" signature="278:320" ph="SELECT * FRO... questaire" />
+                <marker date="1521448848483" expanded="true" signature="1068:1106" ph="SELECT * FRO... contient" />
+                <marker date="1521448848483" expanded="true" signature="1240:1279" ph="SELECT * FRO... question" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question" pinned="false" current-in-tab="false">
+        <entry file="das://table:/a195bc6b/54b6b0a3-169d-461e-bc83-31f36392ebc7/quest.question">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+=======
       <file leaf-file-name="CreerExperience.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CreerExperience.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,28 +255,78 @@
               <folding>
                 <marker date="1521560348059" expanded="true" signature="139:222" ph="SELECT * FRO... experience" />
               </folding>
+>>>>>>> upstream/master
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="CreerQuestionnaire.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreerQuestionnaire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding>
+                <marker date="1521454789323" expanded="true" signature="390:1826" ph="..." />
+              </folding>
+=======
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="479">
               <caret line="215" column="80" lean-forward="false" selection-start-line="215" selection-start-column="80" selection-end-line="215" selection-end-column="80" />
               <folding />
+>>>>>>> upstream/master
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="TraiterCreerQuestionnaire.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TraiterCreerQuestionnaire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1386">
+              <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+              <folding>
+                <marker date="1521454873334" expanded="true" signature="508:619" ph="INSERT INTO questaire... " />
+                <marker date="1521454873334" expanded="true" signature="920:961" ph="select * fro... question" />
+                <marker date="1521454873334" expanded="true" signature="1101:1176" ph="INSERT INTO contient... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questaire" pinned="false" current-in-tab="false">
+        <entry file="das://table:/a195bc6b/54b6b0a3-169d-461e-bc83-31f36392ebc7/quest.questaire">
+=======
+      <file leaf-file-name="reponse" pinned="false" current-in-tab="false">
+        <entry file="das://table:/a195bc6b/58eae0c8-acdc-43a5-99b5-ff6244b18001/quest.reponse">
+>>>>>>> crv
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+=======
+>>>>>>> upstream/master
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$quest['quest_type']</find>
+    </findStrings>
+>>>>>>> crv
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,15 +334,47 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RepondreQuestionnaire.php" />
+<<<<<<< HEAD
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/54b6b0a3-169d-461e-bc83-31f36392ebc7/console.sql" />
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/traiterConnexionQuest.php" />
+>>>>>>> upstream/master
         <option value="$PROJECT_DIR$/PageAcceuilEXP.php" />
-        <option value="$PROJECT_DIR$/head.php" />
         <option value="$PROJECT_DIR$/PageAcceuilExperience.php" />
         <option value="$PROJECT_DIR$/CreationCompteExpe.html" />
         <option value="$PROJECT_DIR$/CreerCompteUSER.html" />
         <option value="$PROJECT_DIR$/CréerExperience.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/PageAcceuilCampagne.php" />
+        <option value="$PROJECT_DIR$/mymovies-correction-master/includes/header.php" />
+        <option value="$PROJECT_DIR$/footerQuest.php" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/about.php" />
+        <option value="$PROJECT_DIR$/RepondreQuestionnaire.php" />
+        <option value="$PROJECT_DIR$/TraiterCreerCampagne.php" />
+        <option value="$PROJECT_DIR$/traiterConnexionQuest.php" />
+        <option value="$PROJECT_DIR$/PageAccueilUSER.php" />
+        <option value="$PROJECT_DIR$/indexQuest.php" />
+        <option value="$PROJECT_DIR$/headerQuest.php" />
+        <option value="$PROJECT_DIR$/style/style.css" />
+        <option value="$PROJECT_DIR$/head.php" />
+        <option value="$PROJECT_DIR$/connexionQuest.php" />
+        <option value="$PROJECT_DIR$/CreerQuestionnaire.php" />
+        <option value="$PROJECT_DIR$/TraiterCreerQuestionnaire.php" />
+        <option value="$PROJECT_DIR$/TraiterRepondreQuestionnaire.php" />
+        <option value="$PROJECT_DIR$/ExportCSV.php" />
+=======
+        <option value="$PROJECT_DIR$/RepondreQuestionnaire.php" />
+        <option value="$PROJECT_DIR$/scoring.php" />
+        <option value="$PROJECT_DIR$/PageAccueilUSER.php" />
+        <option value="$PROJECT_DIR$/headerQuest.php" />
+        <option value="$PROJECT_DIR$/traiterConnexionQuest.php" />
+        <option value="$PROJECT_DIR$/TraiterRepondreQuestionnaire.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/58eae0c8-acdc-43a5-99b5-ff6244b18001/console.sql" />
+        <option value="$PROJECT_DIR$/exportCSV.php" />
+>>>>>>> crv
+=======
         <option value="$PROJECT_DIR$/indexQuest.php" />
         <option value="$PROJECT_DIR$/PageAccueilUSER.php" />
         <option value="$PROJECT_DIR$/connexionQuest.php" />
@@ -123,6 +382,7 @@
         <option value="$PROJECT_DIR$/PageAcceuilCampagne.php" />
         <option value="$PROJECT_DIR$/CreerCampagne.php" />
         <option value="$PROJECT_DIR$/CreerQuestionnaire.php" />
+>>>>>>> upstream/master
       </list>
     </option>
   </component>
@@ -134,10 +394,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1418" />
-    <option name="height" value="990" />
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -154,8 +413,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,15 +429,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+<<<<<<< HEAD
     <property name="list.type.of.created.stylesheet" value="CSS" />
+<<<<<<< HEAD
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+=======
+>>>>>>> crv
+=======
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+>>>>>>> upstream/master
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,6 +459,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="TraiterRepondreQuestionnaire.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Quest/TraiterRepondreQuestionnaire.php" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.TraiterRepondreQuestionnaire.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -202,29 +475,71 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="08c3c949-67b8-49e1-baba-7a58ed201338" name="Default" comment="" />
-      <created>1521296652153</created>
+      <changelist id="942f31c1-c76c-41e5-94d7-c798d23a1539" name="Default" comment="" />
+      <created>1521562087013</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1521296652153</updated>
+<<<<<<< HEAD
+      <workItem from="1521296654560" duration="17226000" />
+      <workItem from="1521381834603" duration="2486000" />
+      <workItem from="1521396734817" duration="6153000" />
+      <workItem from="1521453041423" duration="479000" />
+      <workItem from="1521454053080" duration="2394000" />
+      <workItem from="1521477225976" duration="5539000" />
+      <workItem from="1521549119333" duration="1011000" />
+=======
+      <updated>1521562087013</updated>
+      <workItem from="1521562089329" duration="3608000" />
+      <workItem from="1521619811943" duration="10639000" />
+      <workItem from="1521727377563" duration="97000" />
+>>>>>>> crv
+=======
       <workItem from="1521296654560" duration="5532000" />
       <workItem from="1521384356845" duration="29000" />
       <workItem from="1521635032663" duration="2332000" />
       <workItem from="1521641729193" duration="767000" />
+>>>>>>> upstream/master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="35288000" />
+=======
+    <option name="totallyTimeSpent" value="14344000" />
+>>>>>>> crv
+=======
     <option name="totallyTimeSpent" value="8660000" />
+>>>>>>> upstream/master
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.146875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12604167" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.091145836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21614583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -235,11 +550,36 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> crv
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+<<<<<<< HEAD
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.146875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12604167" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+=======
+>>>>>>> crv
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -248,11 +588,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+<<<<<<< HEAD
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/RepondreQuestionnaire.php">
+<<<<<<< HEAD
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -281,13 +626,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TraiterCreerCampagne.php">
+>>>>>>> upstream/master
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1521448848483" expanded="true" signature="278:320" ph="SELECT * FRO... questaire" />
+            <marker date="1521448848483" expanded="true" signature="1068:1106" ph="SELECT * FRO... contient" />
+            <marker date="1521448848483" expanded="true" signature="1240:1279" ph="SELECT * FRO... question" />
+          </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/connexionQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+=======
     <entry file="file://$PROJECT_DIR$/TraiterCreerExp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -324,70 +681,153 @@
             <marker date="1521558358274" expanded="true" signature="403:437" ph="select exp f... lancer" />
             <marker date="1521558358274" expanded="true" signature="1947:1986" ph="select * fro... experiment" />
           </folding>
+>>>>>>> upstream/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PageAccueilUSER.php">
+    <entry file="file://$PROJECT_DIR$/headerQuest.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="420">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+=======
         <state relative-caret-position="450">
           <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+>>>>>>> upstream/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
+=======
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/exportCSV.php">
+>>>>>>> crv
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+<<<<<<< HEAD
+            <marker date="1521451468165" expanded="true" signature="351:422" ph="SELECT exp_i... experiment" />
+            <marker date="1521451468165" expanded="true" signature="920:974" ph="SELECT usr_i... user" />
+=======
+            <marker date="1521707580702" expanded="true" signature="199:241" ph="SELECT * FRO... questaire" />
+            <marker date="1521707580702" expanded="true" signature="563:575" ph="SELECT quest... question" />
+            <marker date="1521707580702" expanded="true" signature="563:589" ph="SELECT quest... contient" />
+            <marker date="1521707580702" expanded="true" signature="563:605" ph="SELECT quest... contient" />
+            <marker date="1521707580702" expanded="true" signature="563:649" ph="SELECT quest... contient" />
+            <marker date="1521707580702" expanded="true" signature="743:790" ph="SELECT quest... question" />
+            <marker date="1521707580702" expanded="true" signature="743:791" ph="SELECT quest... question" />
+            <marker date="1521707580702" expanded="true" signature="1062:1072" ph="SELECT usr F... " />
+            <marker date="1521707580702" expanded="true" signature="1062:1119" ph="SELECT usr F... reponse" />
+            <marker date="1521707580702" expanded="true" signature="1279:1338" ph="SELECT valeu... reponse" />
+>>>>>>> crv
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/PageAcceuilEXP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+<<<<<<< HEAD
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+=======
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+>>>>>>> upstream/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymovies-correction-master/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="147">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+=======
+    <entry file="das://table:/a195bc6b/58eae0c8-acdc-43a5-99b5-ff6244b18001/quest.questaire">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+=======
+        <state relative-caret-position="25">
+          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+>>>>>>> upstream/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a195bc6b/58eae0c8-acdc-43a5-99b5-ff6244b18001/quest.reponse">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+>>>>>>> crv
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TraiterRepondreQuestionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="525">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+=======
+        <state relative-caret-position="441">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+>>>>>>> crv
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> upstream/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RepondreQuestionnaire.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TraiterCreationCompteEXP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TraiterCreationCompteUSER.php">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="105">
+<<<<<<< HEAD
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+=======
         <state relative-caret-position="225">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+>>>>>>> upstream/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TraiterCreerCampagne.php">
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="88" column="26" lean-forward="false" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Quest/RepondreQuestionnaire.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="7" />
+=======
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+>>>>>>> upstream/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TraiterCreerExp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TraiterCreerQuestionnaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Quest/RepondreQuestionnaire.php" />
     <entry file="file://$PROJECT_DIR$/AffichageQuestionnaireTest.php" />
-    <entry file="das://src:table:/a195bc6b/54b6b0a3-169d-461e-bc83-31f36392ebc7/quest.questaire" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/54b6b0a3-169d-461e-bc83-31f36392ebc7/console.sql" />
+    <entry file="das://src:table:/a195bc6b/54b6b0a3-169d-461e-bc83-31f36392ebc7/quest.questaire">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/54b6b0a3-169d-461e-bc83-31f36392ebc7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Web-Design.jpg" />
     <entry file="file://$PROJECT_DIR$/mymovies-correction-master/includes/scripts.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -404,12 +844,88 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mymovies-correction-master/includes/head.php">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="72" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CreationCompteExpe.html">
+=======
+>>>>>>> upstream/master
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+=======
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+>>>>>>> crv
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a195bc6b/58eae0c8-acdc-43a5-99b5-ff6244b18001/quest.reponse">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/CréerExperience.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a195bc6b/58eae0c8-acdc-43a5-99b5-ff6244b18001/quest.contient">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+>>>>>>> crv
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a195bc6b/58eae0c8-acdc-43a5-99b5-ff6244b18001/quest.question">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/TraiterCreationCompteUSER.php">
+=======
+    <entry file="file://$PROJECT_DIR$/PageAccueilUSER.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect_to_quest.php">
+>>>>>>> crv
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/connexionQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/connect_to_quest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -418,6 +934,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/script/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageAcceuilCampagne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a195bc6b/54b6b0a3-169d-461e-bc83-31f36392ebc7/quest.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/quest.png" />
+    <entry file="file://$PROJECT_DIR$/img/quest.ico" />
+    <entry file="file://$PROJECT_DIR$/footerQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymovies-correction-master/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageAcceuilEXP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreerCampagne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageAccueilUSER.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+=======
     <entry file="file://$PROJECT_DIR$/CreationCompteExpe.html" />
     <entry file="file://$PROJECT_DIR$/CreerCompteUSER.html" />
     <entry file="file://$PROJECT_DIR$/CréerExperience.html" />
@@ -453,11 +1032,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+>>>>>>> upstream/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TraiterCreationCompteUSER.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="168">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Web-Design.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/headerQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connexionQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+=======
         <state relative-caret-position="0">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
@@ -474,6 +1091,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> upstream/master
           <folding />
         </state>
       </provider>
@@ -481,6 +1099,45 @@
     <entry file="file://$PROJECT_DIR$/TraiterCreerExp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreerQuestionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <marker date="1521454789323" expanded="true" signature="390:1826" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TraiterCreerQuestionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding>
+            <marker date="1521454873334" expanded="true" signature="508:619" ph="INSERT INTO questaire... " />
+            <marker date="1521454873334" expanded="true" signature="920:961" ph="select * fro... question" />
+            <marker date="1521454873334" expanded="true" signature="1101:1176" ph="INSERT INTO contient... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a195bc6b/54b6b0a3-169d-461e-bc83-31f36392ebc7/quest.questaire">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a195bc6b/54b6b0a3-169d-461e-bc83-31f36392ebc7/quest.question">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+=======
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -489,11 +1146,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+>>>>>>> upstream/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deconnexion.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1239">
+          <caret line="59" column="57" lean-forward="false" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
+          <folding>
+            <marker date="1521448848483" expanded="true" signature="278:320" ph="SELECT * FRO... questaire" />
+            <marker date="1521448848483" expanded="true" signature="1068:1106" ph="SELECT * FRO... contient" />
+            <marker date="1521448848483" expanded="true" signature="1240:1279" ph="SELECT * FRO... question" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TraiterCreerCampagne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <marker date="1521449772643" expanded="true" signature="585:725" ph="INSERT INTO campagne... " />
+=======
+    <entry file="file://$PROJECT_DIR$/headerQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RepondreQuestionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TraiterRepondreQuestionnaire.php">
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -517,13 +1209,102 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footerQuest.php">
+>>>>>>> upstream/master
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/scoring.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a195bc6b/58eae0c8-acdc-43a5-99b5-ff6244b18001/quest.questaire">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/58eae0c8-acdc-43a5-99b5-ff6244b18001/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a195bc6b/58eae0c8-acdc-43a5-99b5-ff6244b18001/quest.reponse">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportCSV.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+          <folding>
+            <marker date="1521707580702" expanded="true" signature="199:241" ph="SELECT * FRO... questaire" />
+            <marker date="1521707580702" expanded="true" signature="563:575" ph="SELECT quest... question" />
+            <marker date="1521707580702" expanded="true" signature="563:589" ph="SELECT quest... contient" />
+            <marker date="1521707580702" expanded="true" signature="563:605" ph="SELECT quest... contient" />
+            <marker date="1521707580702" expanded="true" signature="563:649" ph="SELECT quest... contient" />
+            <marker date="1521707580702" expanded="true" signature="743:790" ph="SELECT quest... question" />
+            <marker date="1521707580702" expanded="true" signature="743:791" ph="SELECT quest... question" />
+            <marker date="1521707580702" expanded="true" signature="1062:1072" ph="SELECT usr F... " />
+            <marker date="1521707580702" expanded="true" signature="1062:1119" ph="SELECT usr F... reponse" />
+            <marker date="1521707580702" expanded="true" signature="1279:1338" ph="SELECT valeu... reponse" />
+>>>>>>> crv
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/TraiterRepondreQuestionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <marker date="1521455228163" expanded="true" signature="186:224" ph="SELECT * FRO... contient" />
+            <marker date="1521455228163" expanded="true" signature="470:560" ph="INSERT INTO reponse... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <marker date="1521451468165" expanded="true" signature="351:422" ph="SELECT exp_i... experiment" />
+            <marker date="1521451468165" expanded="true" signature="920:974" ph="SELECT usr_i... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExportCSV.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <marker date="1521484357681" expanded="true" signature="268:281" ph="select * fro... " />
+            <marker date="1521484357681" expanded="true" signature="268:282" ph="select * fro... ${$_GET['nom_table']}" />
+            <marker date="1521484357681" expanded="true" signature="268:289" ph="select * fro... reponse" />
+            <marker date="1521484357681" expanded="true" signature="268:291" ph="select * fro... reponse" />
+=======
     <entry file="file://$PROJECT_DIR$/PageAcceuilEXP.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -582,10 +1363,15 @@
           <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="40" />
           <folding>
             <marker date="1521560348059" expanded="true" signature="139:222" ph="SELECT * FRO... experience" />
+>>>>>>> upstream/master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+>>>>>>> crv
+=======
     <entry file="file://$PROJECT_DIR$/CreerCampagne.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -602,5 +1388,6 @@
         </state>
       </provider>
     </entry>
+>>>>>>> upstream/master
   </component>
 </project>

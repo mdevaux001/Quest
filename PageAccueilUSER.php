@@ -1,19 +1,13 @@
-<?php ;
+<?php
 require('connect_to_quest.php');
-
-
-
-
+$idUSER = $_SESSION['idUSER'];
 ?>
-
 
 <!doctype html>
 <html>
 
-<?php require_once'head.php';
 
-?>
-
+<?php require_once'head.php';?>
 
 <body>
   
@@ -57,6 +51,9 @@ $stmt->execute(array($idEXP));
 
 ?>
 
+    <?php if(!isset($idUSER))
+        echo "Erreur"; ?>
+
  <div class="container">
     <div class="row" >
         <div class="col-md-6" >
@@ -66,7 +63,7 @@ $stmt->execute(array($idEXP));
                <div class="form-group">
                     <div class=" col-md-6 " id="code">
                     <label for="code">Entrez le code questionnaire  : </label>
-                    <input type="int" name="code_qutaire" id="code" class="form-control" placeholder="Entrez le code" required>
+                    <input type="number" name="code_qutaire" id="code" class="form-control" placeholder="Entrez le code" required>
                     </div>
                     <br/>
                     
@@ -98,6 +95,7 @@ $stmt->execute(array($idEXP));
  
   <HR width="80%"/>
 <?php require_once "footerQuest.php"; ?>
+
 
 </body>
 </html>
