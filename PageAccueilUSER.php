@@ -1,55 +1,44 @@
-<?php ;
+<?php
 require('connect_to_quest.php');
 ?>
-
 
 <!doctype html>
 <html>
 
-<?php require_once'head.php';
-?>
 
+<?php require_once'head.php';?>
 
 <body>
 
+<?php require_once'headerQuest.php';
+$idUSER = $_SESSION['idUSER'];
+$select_qutaire = $BDD->prepare('SELECT qutaire_titre FROM questaire WHERE qutaire_id =
+                                          (SELECT qutaire FROM reponse GROUP BY usr HAVING usr = ?)');
+$select_qutaire->execute(array($idUSER));
+?>
 <header id="headUSER">
-
     <div class="container">
-        <
-
         <div class="row">
             <div class="container">
                 <div class="row" >
                     <div class="col-md-4" >
 
-
                     </div>
                     <div class="col-md-4" id="description">
                         <h1 >Page d'acceuil USER </h1>
-
-
                     </div>
                     <div class="col-md-4" >
-
                     </div>
-
-
                 </div>
-
-
             </div>
             <h1 class="lead">Bienvenue ! </h1>
-
-
         </div>
     </div>
     </div>
 </header>
-<?php require_once'headerQuest.php';
-$idEXP=$_SESSION['idUSER'];
-$stmt = $BDD->prepare('select * from experience,lancer where lancer.exp=? and lancer.exr=experience.exr_id');
-$stmt->execute(array($idEXP));
-?>
+
+<?php if(!isset($idUSER))
+    echo "Erreur"; ?>
 
 <div class="container">
     <div class="row" >
@@ -60,7 +49,7 @@ $stmt->execute(array($idEXP));
                 <div class="form-group">
                     <div class=" col-md-6 " id="code">
                         <label for="code">Entrez le code questionnaire  : </label>
-                        <input type="int" name="code_qutaire" id="code" class="form-control" placeholder="Entrez le code" required>
+                        <input type="number" name="code_qutaire" id="code" class="form-control" placeholder="Entrez le code" required>
                     </div>
                     <br/>
 
@@ -76,19 +65,21 @@ $stmt->execute(array($idEXP));
 
             <h2  id="conteneurPageUSER2"> Liste des questionnaires auxquels vous avez déja participé  : </h2>
             <?php
-            if(!empty($stmt))
+            if(!empty($select_qutaire))
             {
-                foreach ($stmt as $experience) { ?>
+                while ($questaire = $select_qutaire->fetch())
+                { ?>
                     <article>
-                        <h5><a class="nom_experience" href="PageAcceuilExperience.php?id=<?= $experience['exr_id'] ?>"><?= $experience['exr_nom'] ?></a></h5>
-
-                    </article> <?php } }
-            else { echo "vous n'avez pas encore participé à un questionnaire";}
+                        <h5><a class="nom_experience" href=""><?=$questaire['qutaire_titre']?></a></h5>
+                    </article>
+                    <?php
+                }
+            }
+            else
+                echo "Vous n'avez pas encore participé à un questionnaire";
             ?>
-
         </div>
     </div>
-
 
     <HR width="80%"/>
     <?php require_once "footerQuest.php"; ?>
