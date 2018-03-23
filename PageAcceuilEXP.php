@@ -2,33 +2,30 @@
 require('connect_to_quest.php');
 $nomEXP = $_SESSION['nomEXP'];
 $idEXP = $_SESSION['idEXP'];
-
 $stmt = $BDD->prepare('SELECT * FROM experience,lancer WHERE lancer.exp=? AND lancer.exr=experience.exr_id');
 $stmt->execute(array($idEXP));
 if (!empty($_POST['code']))
 {
-     $requete=$BDD->prepare('INSERT INTO lancer VALUES(:code,:id)');
-  
+    $requete=$BDD->prepare('INSERT INTO lancer VALUES(:code,:id)');
 
-  
-  $requete->bindValue(':code', $idEXP, PDO::PARAM_INT); 
-  $requete->bindValue(':id', $_POST['code'], PDO::PARAM_INT); 
-  $requete->execute(); 
-  header("Location: PageAcceuilEXP.php");
+
+    $requete->bindValue(':code', $idEXP, PDO::PARAM_INT);
+    $requete->bindValue(':id', $_POST['code'], PDO::PARAM_INT);
+    $requete->execute();
+    header("Location: PageAcceuilEXP.php");
 }
-
 ?>
 
 
 <!doctype html>
 <html>
 
-<?php require_once "head.php"; 
+<?php require_once "head.php";
 ?>
 
 <body>
 
-<?php require_once "headerQuest.php"; 
+<?php require_once "headerQuest.php";
 ?>
 
 <header id="head">
@@ -68,21 +65,21 @@ if (!empty($_POST['code']))
         <div class="row">
             <div class="col-md-10">
                 Vous souhaitez rejoindre une expérience ? Entrez le code expérience fourni :
-                 <form class="form-signin form-horizontal" role="form" action="PageAcceuilEXP.php" method="post">
-               <div class="form-group">
-                    <div class=" col-md-4 ">
-                    <label for="nom">Code de l'expérience : </label>
-                    <input type="int" name="code" id="nom" class="form-control" >
+                <form class="form-signin form-horizontal" role="form" action="PageAcceuilEXP.php" method="post">
+                    <div class="form-group">
+                        <div class=" col-md-4 ">
+                            <label for="nom">Code de l'expérience : </label>
+                            <input type="int" name="code" id="nom" class="form-control" >
+                        </div>
                     </div>
-                  </div>
-                  <div class="form-group">
-                    <div class=" col-md-4 ">
-                        <button type="submit" class="btn btn-default btn-primary"><span class="glyphicon glyphicon-plus"></span> Rejoindre</button>
+                    <div class="form-group">
+                        <div class=" col-md-4 ">
+                            <button type="submit" class="btn btn-default btn-primary"><span class="glyphicon glyphicon-plus"></span> Rejoindre</button>
+                        </div>
                     </div>
-                </div>
-        <br/>
-        <br/>
-        <br/>
+                    <br/>
+                    <br/>
+                    <br/>
     </article>
     <br/>
     <aside class="col-md-4 sidebar sidebar-right" id="listexp">

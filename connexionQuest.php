@@ -1,4 +1,22 @@
 <!doctype html>
+
+
+<?php
+
+//Affichage d'un message d'erreur en cas de non authentification.
+if (isset($_GET['erreur'])) {
+    if ($_GET['erreur']) {
+        ?>
+        <script>
+            alert("Votre identifiant ou votre mot de passe sont incorrects.");
+        </script>
+        <?php
+    }
+}
+
+?>
+
+
 <html>
 <head>
     <title> Connexion </title>
@@ -9,22 +27,18 @@
     <script src="script/jquery-3.3.1.js"></script>
     <script src="bootstrap/js/bootstrap.js "></script>
     <style>
-
         #mail {
             background-color: inherit;
             background-size: cover;
         }
-
         #mdp {
             background-color: inherit;
             background-size: cover;
         }
-
         #bouton {
             background-color: inherit;
             background-size: cover;
         }
-
         #connexion {
             background-color: inherit;
             background-size: cover;
@@ -53,6 +67,7 @@
 
                 <input type="email" name="mail" class="form-control" placeholder="Entrez votre mail" required>
             </div>
+
         </div>
         <div class="form-group">
 
@@ -74,4 +89,5 @@
 </div>
 
 </body>
+
 </html>

@@ -1,5 +1,7 @@
 <?php session_start();
+
 require('connect_to_quest.php');
+
 $_SESSION['connecte']=false;
 $_SESSION['validationEXP']=false;
 $_SESSION['validationUSER']=false;
@@ -7,6 +9,7 @@ $_SESSION['validationUSER']=false;
 
 <!doctype html>
 <html>
+
 <?php require_once "head.php"; 
 ?>
 
@@ -71,4 +74,5 @@ $_SESSION['validationUSER']=false;
 <HR size=5 width="80%"/>
 <?php require_once "footerQuest.php"; ?>
   </body>
+
 </html>
