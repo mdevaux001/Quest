@@ -37,6 +37,7 @@ if (!empty($_POST['mail']) && !empty($_POST['mdp'])) {
         }
     }
 
+
     // $erreur permet d'annoncer à la page appelée, via la méthode GET, si une erreur d'authentification est
     // survenue. Un message d'erreur s'affiche alors (voir connexionQuest.php).
     if ($_validation_exp) {
@@ -49,6 +50,7 @@ if (!empty($_POST['mail']) && !empty($_POST['mdp'])) {
         $erreur = true;
         header("Location: connexionQuest.php?erreur=" . $erreur);
     }
+
 
 }
 ?>

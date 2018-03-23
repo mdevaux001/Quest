@@ -1,13 +1,6 @@
 <?php
 require('connect_to_quest.php');
-
 ?>
-
-<!doctype html>
-<html>
-
-
-<?php require_once 'head.php'; ?>
 
 <body>
 
@@ -50,6 +43,7 @@ $idUSER = $_SESSION['idUSER'];
 ?>
 
 
+
 <?php if (!isset($idUSER))
     echo "Erreur"; ?>
 
@@ -59,13 +53,16 @@ $idUSER = $_SESSION['idUSER'];
         <div class="col-md-6">
             <h1 id="conteneurPageUSER1">Répondre à un questionnaire</h1>
 
+
             <form class="form-signin form-horizontal" role="form" action="RepondreQuestionnaire.php" method="post">
                 <div class="form-group">
                     <div class=" col-md-6 " id="code">
 
+
                         <label for="code">Entrez le code questionnaire : </label>
                         <input type="number" name="code_qutaire" id="code" class="form-control"
                                placeholder="Entrez le code" required>
+
 
                     </div>
                     <br/>
@@ -103,6 +100,7 @@ $idUSER = $_SESSION['idUSER'];
 
     <HR width="80%"/>
     <?php require_once "footerQuest.php"; ?>
+
 
 
 </body>

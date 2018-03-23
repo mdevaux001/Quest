@@ -16,7 +16,6 @@ if (isset($_GET['erreur'])) {
 
 ?>
 
-
 <html>
 <head>
     <title> Connexion </title>
@@ -67,6 +66,7 @@ if (isset($_GET['erreur'])) {
 
                 <input type="email" name="mail" class="form-control" placeholder="Entrez votre mail" required>
             </div>
+
 
         </div>
         <div class="form-group">

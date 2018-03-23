@@ -7,6 +7,49 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/ExportCSV.php" />
       <change beforePath="" afterPath="$PROJECT_DIR$/TraiterRepondreQuestionnaire.php" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CreerQuestionnaire.php" afterPath="$PROJECT_DIR$/CreerQuestionnaire.php" />
+      <change beforePath="$PROJECT_DIR$/PageAccueilUSER.php" afterPath="$PROJECT_DIR$/PageAccueilUSER.php" />
+      <change beforePath="$PROJECT_DIR$/RepondreQuestionnaire.php" afterPath="$PROJECT_DIR$/RepondreQuestionnaire.php" />
+      <change beforePath="$PROJECT_DIR$/TraiterCreerCampagne.php" afterPath="$PROJECT_DIR$/TraiterCreerCampagne.php" />
+=======
+    <list default="true" id="942f31c1-c76c-41e5-94d7-c798d23a1539" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/TraiterRepondreQuestionnaire.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/deconnexion.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exportCSV.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/script/popper.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/54b6b0a3-169d-461e-bc83-31f36392ebc7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CreationCompteExpe.html" afterPath="$PROJECT_DIR$/CreationCompteExpe.php" />
+      <change beforePath="$PROJECT_DIR$/CreerCampagne.php" afterPath="$PROJECT_DIR$/CreerCampagne.php" />
+      <change beforePath="$PROJECT_DIR$/CreerCompteUSER.html" afterPath="$PROJECT_DIR$/CreerCompteUSER.php" />
+      <change beforePath="$PROJECT_DIR$/CreerQuestionnaire.php" afterPath="$PROJECT_DIR$/CreerQuestionnaire.php" />
+      <change beforePath="$PROJECT_DIR$/CréerExperience.html" afterPath="$PROJECT_DIR$/CreerExperience.php" />
+      <change beforePath="$PROJECT_DIR$/PageAcceuilEXP.php" afterPath="$PROJECT_DIR$/PageAcceuilEXP.php" />
+      <change beforePath="$PROJECT_DIR$/PageAcceuilExperience.php" afterPath="$PROJECT_DIR$/PageAcceuilExperience.php" />
+      <change beforePath="$PROJECT_DIR$/PageAccueilUSER.php" afterPath="$PROJECT_DIR$/PageAccueilUSER.php" />
+      <change beforePath="$PROJECT_DIR$/RepondreQuestionnaire.php" afterPath="$PROJECT_DIR$/RepondreQuestionnaire.php" />
+      <change beforePath="$PROJECT_DIR$/TraiterCreationCompteEXP.php" afterPath="$PROJECT_DIR$/TraiterCreationCompteEXP.php" />
+>>>>>>> crv
+      <change beforePath="$PROJECT_DIR$/TraiterCreerQuestionnaire.php" afterPath="$PROJECT_DIR$/TraiterCreerQuestionnaire.php" />
+      <change beforePath="$PROJECT_DIR$/about.php" afterPath="$PROJECT_DIR$/about.php" />
+      <change beforePath="$PROJECT_DIR$/connexionQuest.php" afterPath="$PROJECT_DIR$/connexionQuest.php" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/head.php" afterPath="$PROJECT_DIR$/head.php" />
+      <change beforePath="$PROJECT_DIR$/headerQuest.php" afterPath="$PROJECT_DIR$/headerQuest.php" />
+      <change beforePath="$PROJECT_DIR$/img/quest.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/quest.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/quest_logo.png" afterPath="" />
+=======
+      <change beforePath="$PROJECT_DIR$/footerQuest.php" afterPath="$PROJECT_DIR$/footerQuest.php" />
+      <change beforePath="$PROJECT_DIR$/headerQuest.php" afterPath="$PROJECT_DIR$/headerQuest.php" />
+>>>>>>> crv
+      <change beforePath="$PROJECT_DIR$/indexQuest.php" afterPath="$PROJECT_DIR$/indexQuest.php" />
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/CreerQuestionnaire.php" afterPath="$PROJECT_DIR$/CreerQuestionnaire.php" />
@@ -259,10 +302,64 @@
               <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
               <folding />
 >>>>>>> upstream/master
+<<<<<<< HEAD
+=======
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="traiterConnexionQuest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <marker date="1521451468165" expanded="true" signature="351:422" ph="SELECT exp_i... experiment" />
+                <marker date="1521451468165" expanded="true" signature="920:974" ph="SELECT usr_i... user" />
+              </folding>
+=======
+      <file leaf-file-name="questaire" pinned="false" current-in-tab="false">
+        <entry file="das://table:/a195bc6b/58eae0c8-acdc-43a5-99b5-ff6244b18001/quest.questaire">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+>>>>>>> crv
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="TraiterRepondreQuestionnaire.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TraiterRepondreQuestionnaire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding>
+                <marker date="1521455228163" expanded="true" signature="186:224" ph="SELECT * FRO... contient" />
+                <marker date="1521455228163" expanded="true" signature="470:560" ph="INSERT INTO reponse... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExportCSV.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExportCSV.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <marker date="1521484357681" expanded="true" signature="268:281" ph="select * fro... " />
+                <marker date="1521484357681" expanded="true" signature="268:282" ph="select * fro... ${$_GET['nom_table']}" />
+                <marker date="1521484357681" expanded="true" signature="268:289" ph="select * fro... reponse" />
+                <marker date="1521484357681" expanded="true" signature="268:291" ph="select * fro... reponse" />
+              </folding>
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="traiterConnexionQuest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
@@ -332,6 +429,8 @@
       </file>
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
       <file leaf-file-name="RepondreQuestionnaire.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RepondreQuestionnaire.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -346,6 +445,9 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
+=======
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
       <file leaf-file-name="question" pinned="false" current-in-tab="false">
         <entry file="das://table:/a195bc6b/54b6b0a3-169d-461e-bc83-31f36392ebc7/quest.question">
@@ -384,6 +486,8 @@
               <folding />
 >>>>>>> upstream/master
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
             </state>
           </provider>
@@ -443,10 +547,42 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <file leaf-file-name="TraiterCreerQuestionnaire.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TraiterCreerQuestionnaire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1386">
+              <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+              <folding>
+                <marker date="1521454873334" expanded="true" signature="508:619" ph="INSERT INTO questaire... " />
+                <marker date="1521454873334" expanded="true" signature="920:961" ph="select * fro... question" />
+                <marker date="1521454873334" expanded="true" signature="1101:1176" ph="INSERT INTO contient... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questaire" pinned="false" current-in-tab="false">
+        <entry file="das://table:/a195bc6b/54b6b0a3-169d-461e-bc83-31f36392ebc7/quest.questaire">
+=======
+      <file leaf-file-name="reponse" pinned="false" current-in-tab="false">
+        <entry file="das://table:/a195bc6b/58eae0c8-acdc-43a5-99b5-ff6244b18001/quest.reponse">
+>>>>>>> crv
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+=======
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
@@ -481,7 +617,12 @@
         <option value="$PROJECT_DIR$/traiterConnexionQuest.php" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/head.php" />
+=======
+>>>>>>> upstream/master
+        <option value="$PROJECT_DIR$/PageAcceuilEXP.php" />
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
 >>>>>>> upstream/master
         <option value="$PROJECT_DIR$/PageAcceuilEXP.php" />
@@ -532,8 +673,12 @@
         <option value="$PROJECT_DIR$/CreerQuestionnaire.php" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/PageAcceuilCampagne.php" />
         <option value="$PROJECT_DIR$/PageAcceuilEXP.php" />
+=======
+>>>>>>> upstream/master
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
 >>>>>>> upstream/master
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
@@ -588,8 +733,13 @@
       </pane>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -669,7 +819,11 @@
       <workItem from="1521641729193" duration="767000" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1521727801955" duration="1993000" />
+=======
+>>>>>>> upstream/master
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
 >>>>>>> upstream/master
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
@@ -680,6 +834,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="10653000" />
@@ -703,6 +858,18 @@
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
 <<<<<<< HEAD
+    <option name="totallyTimeSpent" value="35288000" />
+=======
+    <option name="totallyTimeSpent" value="14344000" />
+>>>>>>> crv
+=======
+    <option name="totallyTimeSpent" value="8660000" />
+>>>>>>> upstream/master
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
+=======
     <option name="totallyTimeSpent" value="35288000" />
 =======
     <option name="totallyTimeSpent" value="14344000" />
@@ -827,9 +994,12 @@
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 =======
+=======
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
         <state relative-caret-position="168">
@@ -840,6 +1010,9 @@
             <marker date="1521448848483" expanded="true" signature="1240:1279" ph="SELECT * FRO... question" />
           </folding>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
+=======
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
@@ -892,6 +1065,9 @@
           </folding>
 >>>>>>> upstream/master
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
+=======
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
@@ -1012,8 +1188,13 @@
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="1848">
+          <caret line="88" column="26" lean-forward="false" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
         <state relative-caret-position="1848">
           <caret line="88" column="26" lean-forward="false" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
@@ -1262,7 +1443,44 @@
         <state relative-caret-position="0">
           <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
 >>>>>>> upstream/master
+<<<<<<< HEAD
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
+=======
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Web-Design.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/headerQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connexionQuest.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="168">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1335,6 +1553,9 @@
           <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
 =======
         <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+=======
+        <state relative-caret-position="0">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
@@ -1352,7 +1573,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 >>>>>>> upstream/master
@@ -1505,8 +1729,11 @@
         <state relative-caret-position="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 =======
+=======
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
           <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
@@ -1537,6 +1764,7 @@
             <marker date="1521707580702" expanded="true" signature="1279:1338" ph="SELECT valeu... reponse" />
 >>>>>>> crv
           </folding>
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -1552,6 +1780,23 @@
         </state>
       </provider>
     </entry>
+=======
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/TraiterRepondreQuestionnaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <marker date="1521455228163" expanded="true" signature="186:224" ph="SELECT * FRO... contient" />
+            <marker date="1521455228163" expanded="true" signature="470:560" ph="INSERT INTO reponse... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
     <entry file="file://$PROJECT_DIR$/traiterConnexionQuest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -1642,6 +1887,7 @@
     </entry>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/RepondreQuestionnaire.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1676,6 +1922,9 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> upstream/master
+>>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
 =======
 >>>>>>> upstream/master
 >>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0

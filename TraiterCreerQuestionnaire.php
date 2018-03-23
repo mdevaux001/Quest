@@ -11,6 +11,7 @@ if (!empty($_POST['description']) and !empty($_POST['nom']) and !empty($_POST['t
     $type = $_POST['type'];
 
 
+
     // Création d'un code à 4 charactères pour l'identifiant :
 
 
@@ -23,7 +24,7 @@ if (!empty($_POST['description']) and !empty($_POST['nom']) and !empty($_POST['t
     }
 
     $requete = $BDD->prepare('INSERT INTO questaire(qutaire_id,qutaire_camp,qutaire_titre,qutaire_desc) VALUES(:id,:idCamp,:nom,:description)');
-<<<<<<< HEAD
+
 
     $requete->bindValue(':id', $id, PDO::PARAM_INT);
     $requete->bindValue(':idCamp', $idCampagne, PDO::PARAM_INT);
@@ -49,13 +50,14 @@ if (!empty($_POST['description']) and !empty($_POST['nom']) and !empty($_POST['t
 }
 
 
-if ($validation)
-=======
+if ($validation){
+
 
     $requete->bindValue(':id', $id, PDO::PARAM_INT);
     $requete->bindValue(':idCamp', $idCampagne, PDO::PARAM_INT);
     $requete->bindValue(':nom', $nom, PDO::PARAM_STR);
     $requete->bindValue(':description', $desc, PDO::PARAM_STR);
+
 
     $requete->execute();
 
@@ -75,7 +77,7 @@ if ($validation)
 }
 
 if ($_validation)
->>>>>>> 698c49a8bebbdd6160c7126af5b059abe30c96b0
+
 {
     header("Location:PageAcceuilCampagne.php?id=$idCampagne");
 }
