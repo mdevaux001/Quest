@@ -11,10 +11,12 @@ require('connect_to_quest.php');
 <body>
 
 <?php require_once'headerQuest.php';
+echo "<br/>";
+echo "<br/>";
+echo "<br/>";
 $idUSER = $_SESSION['idUSER'];
-$select_qutaire = $BDD->prepare('SELECT qutaire_titre FROM questaire WHERE qutaire_id =
-                                          (SELECT qutaire FROM reponse GROUP BY usr HAVING usr = ?)');
-$select_qutaire->execute(array($idUSER));
+$select_qutaires = $BDD->prepare('SELECT DISTINCT qutaire FROM reponse WHERE usr = ?');
+$select_qutaires->execute(array($idUSER));
 ?>
 <header id="headUSER">
     <div class="container">
@@ -63,14 +65,21 @@ $select_qutaire->execute(array($idUSER));
         </div>
         <div class="col-md-6">
 
-            <h2  id="conteneurPageUSER2"> Liste des questionnaires auxquels vous avez déja participé  : </h2>
+            <h2  id="conteneurPageUSER2"> Liste des questionnaires auxquels vous avez déja participé (cliquez sur leur nom pour visualiser vos réponses) : </h2>
             <?php
-            if(!empty($select_qutaire))
+            if($select_qutaires->rowCount()>=1)
             {
-                while ($questaire = $select_qutaire->fetch())
-                { ?>
+
+                while ($questaire = $select_qutaires->fetch())
+                { $trouver=$BDD->prepare('SELECT  * FROM questaire WHERE qutaire_id =?');
+                    $trouver->execute(array($questaire['qutaire']));
+                    while ($row=$trouver->fetch()){
+                        $titre=$row['qutaire_titre'];
+
+                    }
+                    ?>
                     <article>
-                        <h5><a class="nom_experience" href=""><?=$questaire['qutaire_titre']?></a></h5>
+                        <h5><a class="nom_experience" href="AfficherQuestionnaire.php?id=<?=$questaire['qutaire']?>"><?=$titre?></a></h5>
                     </article>
                     <?php
                 }

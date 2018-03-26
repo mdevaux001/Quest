@@ -46,8 +46,8 @@ $_SESSION['validationUSER']=false;
             </div>
             <div class="col-md-5" id="casegauche">
               <h1 id='expérimentateur'>Vous souhaitez répondre à un questionnaire ?</h1>
-              <button id="btn2" type="button" class="btn btn-secondary" > Cliquez ici
-              </button>
+              <a  href="CreerCompteUser.php"><button id="btn2" type="button" class="btn btn-secondary" > Cliquez ici
+                </button></a>
             </div>
 
      

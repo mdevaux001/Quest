@@ -10,21 +10,25 @@ if (!empty($_POST['code_qutaire']))
 {
 // On verifie si le code questionnaire est correct
 
-$code = $_POST['code_qutaire'];
-$stmt = $BDD->prepare('SELECT * FROM questaire WHERE qutaire_id=?');
-$stmt->execute(array($code));
-$questionnaire = $stmt->fetch();
-// Si le questionnaire existe
-if ($stmt->rowCount() == 1) {
-    $validation = true;
-}
+    $code = $_POST['code_qutaire'];
 
-$question = array();
+    $stmt = $BDD->prepare('SELECT * FROM questaire WHERE qutaire_id=?');
+    $stmt->execute(array($code));
+    $questionnaire = $stmt->fetch();
 
-if ($validation)
-{
-$pageTitle = "Quest : " . $questionnaire['qutaire_titre'];
-require_once('head.php');
+    // Si le questionnaire existe
+    if ($stmt->rowCount() == 1)
+    {
+        $validation = true;
+    }
+
+    $question = array();
+
+    if ($validation)
+    {
+        $pageTitle = "Quest : " . $questionnaire['qutaire_titre'];
+        require_once('head.php');
+
 ?>
 
 <html>
@@ -68,25 +72,30 @@ require_once('head.php');
         $requete = $BDD->prepare('SELECT * FROM contient WHERE qutaire=?');
         $requete->execute(array($code));
 
-        while ($questionnaire = $requete->fetch()) {
-        $question_requete = $BDD->prepare('SELECT * FROM question WHERE quest_id=?');
-        $question_requete->execute(array($questionnaire['quest']));
+        while ($questionnaire = $requete->fetch())
+        {
+            $question_requete = $BDD->prepare('SELECT * FROM question WHERE quest_id=?');
+            $question_requete->execute(array($questionnaire['quest']));
 
-        $question = $question_requete->fetch();
+        while ($question = $question_requete->fetch())
+        {
 
         ?>
         <br/>
         <div class="row">
-            <?php if ($question['type']="AttrakDiff")
+            <?php if ($question['quest_type'] == "AD")
             {
-                
-            }?>
+            $pieces = explode("-", $question['quest_text']);
+            echo "<div class=row>";
+            echo "<div class=col-md-3>";
+            echo "</div>";
+            echo "<div class='col-md-2' id='ADgauche'> ";
+                echo $pieces[0];
+                echo "</div>";
 
-            <div class="col-md-12">
-                <legend> <?= $question['quest_text'] ?> </legend>
 
-                <p id="p">-  +</p>
-                <?php
+                echo "<div class='col-md-2'>";
+
                 for ($ind = 1; $ind <= $question['quest_ech']; $ind++) {
                     ?>
 
@@ -95,23 +104,48 @@ require_once('head.php');
                            value="<?= $ind; ?>"/>
 
 
+                <?php }
+                echo "</div>";
+                echo "<div class='col-md-2'id='ADdroite'>";
+                echo $pieces[1];
+                echo "</div>";
+                echo "<div class=col-md-3>";
+                echo "</div>";
+                echo "</div>";
+                echo "<br/>";
+                }
+                else { ?>
 
+                <div class="col-md-12">
+                    <legend> <?= $question['quest_text'] ?> </legend>
 
+                    <p id="p">- +</p>
                     <?php
-                }
-                }
-                }
-                }
-                ?>
+                    for ($ind = 1; $ind <= $question['quest_ech']; $ind++) {
+                        ?>
 
 
+                        <input type="radio" name="<?= $question['quest_id']; ?>" id="<?= $ind; ?>"
+                               value="<?= $ind; ?>"/>
+
+
+                        <?php
+                    }
+                    }
+                    }
+                    }
+                    }
+                    }
+                    ?>
+
+
+                </div>
             </div>
-        </div>
 
-        <br/>
-        <br/>
-        <button type="submit" class="btn btn-default btn-primary">Valider</button>
-        <button type="reset" class="btn btn-default btn-primary">Recommencer</button>
+            <br/>
+            <br/>
+            <button type="submit" class="btn btn-default btn-primary">Valider</button>
+            <button type="reset" class="btn btn-default btn-primary">Recommencer</button>
     </form>
 </div>
 </body>

@@ -22,15 +22,9 @@ if ($_validation_exp)
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right">
 
-                <li><a href="PageAcceuilEXP.php">Home</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="sidebar-left.html">Left Sidebar</a></li>
-                        <li class="active"><a href="sidebar-right.html">Right Sidebar</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="PageAcceuilEXP.php">Accueil</a></li>
+                <li><a href="about.html">Comment ça marche ?</a></li>
+
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <span class="glyphicon glyphicon-user"></span> Bienvenue, <?= $_SESSION['nomEXP'] ?> <b
@@ -53,17 +47,10 @@ if ($_validation_exp)
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav pull-right">
-                                <li><a href="PageAccueilUSER.php">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b
-                                                class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="sidebar-left.html">Left Sidebar</a></li>
-                                        <li class="active"><a href="sidebar-right.html">Right Sidebar</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="PageAccueilUSER.php">Accueil</a></li>
+                                <li><a href="about.html">Comment ça marche ?</a></li>
+
+
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                         <span class="glyphicon glyphicon-user"></span> connecté <b class="caret"></b>
@@ -86,18 +73,10 @@ if ($_validation_exp)
                                         </div>
                                         <div class="navbar-collapse collapse">
                                             <ul class="nav navbar-nav pull-right">
-                                                <li><a href="indexQuest.php">Home</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li class="dropdown">
-                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">More
-                                                        Pages <b class="caret"></b></a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="sidebar-left.html">Left Sidebar</a></li>
-                                                        <li class="active"><a href="sidebar-right.html">Right
-                                                                Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="indexQuest.php">Accueil</a></li>
+                                                <li><a href="about.html">Comment ça marche ?</a></li>
+
+
                                                 <li>
                                                     <button id="con" class="btn btn-block btn-success"><span
                                                                 class="glyphicon glyphicon-user"></span> connexion

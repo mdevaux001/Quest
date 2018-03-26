@@ -71,7 +71,7 @@ $stmt->execute(array($idCampagne));
                     <h2>Questionnaires(s) de cette campagne :</h2>
                     <?php foreach ($stmt as $questionnaire) { ?>
                         <article>
-                            <h5><a class="nom_questionnaire"><?= $questionnaire["qutaire_titre"] ?></a></h5>
+                            <h5><a class="nom_questionnaire" href="AccueilQuestio.php?id=<?= $idCampagne ?>"><?= $questionnaire["qutaire_titre"] ?></a></h5>
 
                         </article>
                     <?php } ?>
@@ -81,26 +81,16 @@ $stmt->execute(array($idCampagne));
                     </h2>
                 </div>
             </div>
-            <div>
-
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-                </ul>
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="home">patate</div>
-                    <div role="tabpanel" class="tab-pane" id="profile">haricots</div>
-                    <div role="tabpanel" class="tab-pane" id="messages">...</div>
-                    <div role="tabpanel" class="tab-pane" id="settings">...</div>
-                </div>
-
-            </div>
-
+            <br/>
+            <br/>
+            <a href="delete_campagne.php?id=<?= $idCampagne ?>">
+                <button id="btn1" type="button" class="btn btn-secondary"> Supprimer la campagne
+                </button>
+            </a>
+            <a href="modifier_campagne.php?id=<?= $idCampagne ?>">
+                <button id="btn1" type="button" class="btn btn-secondary"> Modifier la campagne
+                </button>
+            </a>
 
 </body>
 </html>

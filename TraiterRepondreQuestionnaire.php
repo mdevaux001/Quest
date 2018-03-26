@@ -23,4 +23,6 @@ while($ligne=$quest_contient->fetch())
     $insert_rep->bindValue(":quest", $quest, PDO::PARAM_INT);
     $insert_rep->bindValue(":valeur", CalculerScore($quest,$valeur, $type), PDO::PARAM_INT);
     $insert_rep->execute();
-}?>
+}
+header("Location: PageAccueilUSER.php");
+?>
