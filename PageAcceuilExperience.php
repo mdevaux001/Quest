@@ -95,7 +95,10 @@ $req->execute(array($idExperience));
                         <div class="col-md-4">
 
                             <h3>Description :</h3>
-                            <p><?= $experience['exr_desc'] ?></p>
+                            <p><?= $experience['exr_desc'] ?>
+                            <h4>Durée :</h4>
+                            <p>du <?= $experience['dateDeb'] ?> au <?= $experience['dateFin'] ?></p>
+
 
 
                         </div>
@@ -126,11 +129,11 @@ $req->execute(array($idExperience));
             <br/>
             <br/>
             <a href="delete_experience.php?id=<?= $idExperience ?>">
-                <button id="btn1" type="button" class="btn btn-secondary"> Supprimer l'expérience
+                <button id="btnsupr" type="button" class="btn btn-secondary"> Supprimer l'expérience
                 </button>
             </a>
             <a href="modifier_experience.php?id=<?= $idExperience ?>">
-                <button id="btn1" type="button" class="btn btn-secondary"> Modifier l'expérience
+                <button id="btnmod" type="button" class="btn btn-secondary"> Modifier l'expérience
                 </button>
             </a>
 

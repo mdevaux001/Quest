@@ -2,9 +2,7 @@
 require('connect_to_quest.php');
 $idCampagne = $_GET['id'];
 
-while ($row = $stmt1->fetch()) {
-    $idExperience = $row['camp_exr'];
-}
+
 
 
 

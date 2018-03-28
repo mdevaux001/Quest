@@ -123,12 +123,13 @@
     background-size: cover;
 }
 
-#btn, #btn1, #btn2 {
+#btn {
     padding: 20px 20px;
     background: #F27E0A;
     font-size: 20px;
     margin-left: 40px;
     font-family: 'caviar';
+    color: white;
 }
 
 #Bienvenue, #lesite {
@@ -136,7 +137,7 @@
     margin-top: 0px;
 }
 
-#casedroite, #casegauche {
+#casedroite  {
 
     background: #EF9943;
 
@@ -144,8 +145,21 @@
 
     color: white;
     opacity: 0.95;
-    margin-left: 40px
-    margin-right: 40px
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+#casegauche{
+
+    background: #EF9943;
+
+    font-family: "caviar";
+
+    color: white;
+    opacity: 0.95;
+    margin-left: 40px;
+    margin-right: 40px;
+
 
 }
 
@@ -173,6 +187,7 @@
     font-size: 20px;
     margin-left: 160px;
     margin-bottom: 10px;
+    color: white;
 }
 
 #btncode {
@@ -189,7 +204,24 @@
     font-size: 15px;
     color: white;
     border: 1px solid #5B9FCF;
+    font-family: 'caviar';
 
+}
+#btnsupr{
+    padding: 3px 3px;
+    background: #d03e24;
+    font-size: 15px;
+    color: white;
+    border: 1px solid #d03e24;
+    font-family: 'caviar';
+}
+#btnmod{
+    padding: 3px 3px;
+    background: #57d062;
+    font-size: 15px;
+    color: white;
+    border: 1px solid #57d062;
+    font-family: 'caviar';
 }
 
 #conteneurPageUSER1, #conteneurPageUSER2 {
@@ -223,6 +255,12 @@
     color: white;
     opacity: 0.9;
 
+}
+#fondblanc{
+    background: #f6feff;
+    font-family: 'caviar';
+    color: black;
+    opacity: 0.9;
 }
 #questio{
     font-family: 'caviar';
@@ -296,4 +334,14 @@
 #descriptionexp,#descriptionc{
     color:black;
 
+}
+#fondgris{
+    background:#181015 ;
+    opacity: 0.95;
+    color: white;
+    font-family: 'caviar';
+
+}
+#eciturenoire{
+    color: black;
 }

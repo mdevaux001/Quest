@@ -8,10 +8,18 @@ if (!empty($_POST['description']) and !empty($_POST['nom']) and !empty($_POST['t
     $type = $_POST['type'];
     // Création d'un code à 4 charactères pour l'identifiant :
     $characts = '1234567890';
-    $id = '';
-    for ($i = 0; $i < 8; $i++)
-    {
-        $id .= substr($characts, rand() % (strlen($characts)), 1);
+    $doublon = true;
+    while ($doublon) {
+        $idEXP = '';
+        for ($i = 0; $i < 4; $i++) {
+            $id .= substr($characts, rand() % (strlen($characts)), 1);
+        }
+        $chercher_doublon = $BDD->prepare('SELECT qutaire_id FROM questaire WHERE qutaire_id=?');
+        $chercher_doublon->execute(array($id));
+        if ($chercher_doublon->rowCount() == 0) {
+
+            $doublon = false;
+        }
     }
     $requete = $BDD->prepare('INSERT INTO questaire(qutaire_id,qutaire_camp,qutaire_titre,qutaire_desc) VALUES(:id,:idCamp,:nom,:description)');
     $requete->bindValue(':id', $id, PDO::PARAM_INT);
@@ -31,8 +39,7 @@ if (!empty($_POST['description']) and !empty($_POST['nom']) and !empty($_POST['t
         $_validation = true;
     }
 }
-if ($_validation)
-{
+if ($_validation) {
     header("Location:PageAcceuilCampagne.php?id=$idCampagne");
 }
 ?>

@@ -23,7 +23,7 @@ if ($_validation_exp)
             <ul class="nav navbar-nav pull-right">
 
                 <li><a href="PageAcceuilEXP.php">Accueil</a></li>
-                <li><a href="about.html">Comment ça marche ?</a></li>
+                <li><a href="CommentCaM.php">Comment ça marche ?</a></li>
 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -48,7 +48,7 @@ if ($_validation_exp)
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav pull-right">
                                 <li><a href="PageAccueilUSER.php">Accueil</a></li>
-                                <li><a href="about.html">Comment ça marche ?</a></li>
+                                <li><a href="CommentCaM.php">Comment ça marche ?</a></li>
 
 
                                 <li class="dropdown">
@@ -74,7 +74,7 @@ if ($_validation_exp)
                                         <div class="navbar-collapse collapse">
                                             <ul class="nav navbar-nav pull-right">
                                                 <li><a href="indexQuest.php">Accueil</a></li>
-                                                <li><a href="about.html">Comment ça marche ?</a></li>
+                                                <li><a href="CommentCaM.php">Comment ça marche ?</a></li>
 
 
                                                 <li>

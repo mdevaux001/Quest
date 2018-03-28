@@ -13,13 +13,21 @@ if (!empty($_POST['description']) and !empty($_POST['dateDebut'])and !empty($_PO
 	
 	// Création d'un code à 4 charactères pour l'identifiant : 
 
-		
-	$characts = '1234567890';
-	
-	$id = ''; 
-	for($i=0;$i < 4;$i++) 
-	 { $id .= substr($characts,rand()%(strlen($characts)),1); } 
-	
+
+    $characts = '1234567890';
+    $doublon = true;
+    while ($doublon) {
+        $idEXP = '';
+        for ($i = 0; $i < 4; $i++) {
+            $id .= substr($characts, rand() % (strlen($characts)), 1);
+        }
+        $chercher_doublon = $BDD->prepare('SELECT exr_id FROM experience WHERE exr_id=?');
+        $chercher_doublon->execute(array($id));
+        if ($chercher_doublon->rowCount() == 0) {
+
+            $doublon = false;
+        }
+    }
 	
 
 	//$requete=$BDD->prepare('INSERT INTO experience(exr_id,exr_nom,exr_desc,dateDeb,dateFin) VALUES(:id,:nom,:description,:dateDebut,:datefin)');

@@ -19,29 +19,29 @@ $stmt = $BDD->prepare('select * from questaire where qutaire_camp=?');
 $stmt->execute(array($idCampagne));
 
 ?>
-<body id="bodyaccueilcampagne">
+<body  >
 <?php require_once "headerQuest.php"; ?>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-<div class="container">
+<div class="container" id="fondgris">
 
 
     <div class="row">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row" id="creation">
+                <div class="col-md-3">
 
 
                 </div>
-                <div class="col-md-4" id="creation">
-                    <h1 class="text-center">Gestion de campagnes</h1>
+                <div class="col-md-6" >
+                    <h1 class="text-center">Gestion de campagne</h1>
 
 
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
 
                 </div>
 
@@ -50,28 +50,28 @@ $stmt->execute(array($idCampagne));
 
 
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+
 
 
         <div class="container">
-            <div class="row">
+            <div class="row" >
 
-                <div class="col-md-4-offset-md-2 col-sm-5" id="titreaccueilcamp">
+                <div class="col-md-4-offset-md-2 col-sm-5" >
                     <h2><?= $campagne['camp_nom'] ?></h2>
 
                     <p>
-                        <small><?= $campagne['camp_desc'] ?></small>
+                        <?= $campagne['camp_desc'] ?>
+                        <br>
+                        <small>Durée : du <?= $campagne['camp_deb'] ?> au <?= $campagne['camp_fin'] ?> </small>
                     </p>
                 </div>
-                <div class="col-md-4-offset-md-2 col-sm-5" id="conteneraccueilcamp">
+                <div class="col-md-4-offset-md-2 col-sm-5" >
                     <h2>Questionnaires(s) de cette campagne :</h2>
                     <?php foreach ($stmt as $questionnaire) { ?>
                         <article>
-                            <h5><a class="nom_questionnaire" href="AccueilQuestio.php?id=<?= $idCampagne ?>"><?= $questionnaire["qutaire_titre"] ?></a></h5>
+                            <h5><a class="nom_questionnaire"
+                                   href="AccueilQuestio.php?id=<?= $idCampagne ?>"><?= $questionnaire["qutaire_titre"] ?></a>
+                            </h5>
 
                         </article>
                     <?php } ?>
@@ -84,13 +84,31 @@ $stmt->execute(array($idCampagne));
             <br/>
             <br/>
             <a href="delete_campagne.php?id=<?= $idCampagne ?>">
-                <button id="btn1" type="button" class="btn btn-secondary"> Supprimer la campagne
+                <button id="btnsupr" type="button" class="btn btn-secondary"> Supprimer la campagne
                 </button>
             </a>
             <a href="modifier_campagne.php?id=<?= $idCampagne ?>">
-                <button id="btn1" type="button" class="btn btn-secondary"> Modifier la campagne
+                <button id="btnmod" type="button" class="btn btn-secondary"> Modifier la campagne
                 </button>
             </a>
+            <br>
+            <br>
+            <br>
+
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<HR width="80%"/>
+<br>
+<br>
+<br>
+
+
+<?php require_once "footerQuest.php"; ?>
 
 </body>
 </html>
