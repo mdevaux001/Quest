@@ -15,6 +15,9 @@ echo "<br/>";
 echo "<br/>";
 echo "<br/>";
 $idUSER = $_SESSION['idUSER'];
+
+// On va chercher dans la BDD les questionnaires auxquels cet utilisateur à déjà participé :
+
 $select_qutaires = $BDD->prepare('SELECT DISTINCT qutaire FROM reponse WHERE usr = ?');
 $select_qutaires->execute(array($idUSER));
 ?>
@@ -67,16 +70,24 @@ $select_qutaires->execute(array($idUSER));
 
             <h2  id="conteneurPageUSER2"> Liste des questionnaires auxquels vous avez déja participé (cliquez sur leur nom pour visualiser vos réponses) : </h2>
             <?php
+
+            // On compte les questionnaires auxquels l'utilisateur a déjà participé :
+
             if($select_qutaires->rowCount()>=1)
             {
+                // Si il a déja participé à au moins un questionnaire, on va chercher les infos de ce questionnaire dans la BDD :
 
                 while ($questaire = $select_qutaires->fetch())
                 { $trouver=$BDD->prepare('SELECT  * FROM questaire WHERE qutaire_id =?');
                     $trouver->execute(array($questaire['qutaire']));
+
+                    //on va chercher le titre su questionnaire dans les informations :
+
                     while ($row=$trouver->fetch()){
                         $titre=$row['qutaire_titre'];
 
                     }
+                    // on affiche le titre :
                     ?>
                     <article>
                         <h5><a class="nom_experience" href="AfficherQuestionnaire.php?id=<?=$questaire['qutaire']?>"><?=$titre?></a></h5>

@@ -10,10 +10,13 @@ require('connect_to_quest.php');
 <?php require_once "head.php";
 $idCampagne = $_GET['id'];
 
+//On va chercher dans la BDD toutes les informations relatives à cette campagne :
 
 $requete = $BDD->prepare('select * from campagne where camp_id=?');
 $requete->execute(array($idCampagne));
 $campagne = $requete->fetch();
+
+//On va chercher dans la BDD tous les questionnaires appartenants dans cette campagne :
 
 $stmt = $BDD->prepare('select * from questaire where qutaire_camp=?');
 $stmt->execute(array($idCampagne));
@@ -67,7 +70,12 @@ $stmt->execute(array($idCampagne));
                 </div>
                 <div class="col-md-4-offset-md-2 col-sm-5" >
                     <h2>Questionnaires(s) de cette campagne :</h2>
-                    <?php foreach ($stmt as $questionnaire) { ?>
+                    <?php
+
+                    // Pour chaque questionnaire, on affiche le titre et on crée un lien en faisant passer l'id
+                    //du questionnaire en get  :
+
+                    foreach ($stmt as $questionnaire) { ?>
                         <article>
                             <h5><a class="nom_questionnaire"
                                    href="AccueilQuestio.php?id=<?= $questionnaire["qutaire_id"] ?>"><?= $questionnaire["qutaire_titre"] ?></a>

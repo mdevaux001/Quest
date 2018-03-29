@@ -1,11 +1,24 @@
 <?php session_start();
 require('connect_to_quest.php');
+
+// On recupère les variables super globales :
+
 $nomEXP = $_SESSION['nomEXP'];
 $idEXP = $_SESSION['idEXP'];
+
+// On va chercher dans la BDD les expériences lancées par cet expérimentateur ;
+
 $stmt = $BDD->prepare('SELECT * FROM experience,lancer WHERE lancer.exp=? AND lancer.exr=experience.exr_id');
 $stmt->execute(array($idEXP));
+
+// Traitement du form permettant de rejoindre une autre expérience déja existante (le form est sur la même page)
+//en utilisant un code d'expérience :
+
 if (!empty($_POST['code']))
 {
+    // L'expérimentateur rejoint une expérience, on ajoute donc une ligne à la table lancer
+    // avec l'id de l'expérimentateur et l'id de l'expérience :
+
     $requete=$BDD->prepare('INSERT INTO lancer VALUES(:code,:id)');
 
 
@@ -84,7 +97,11 @@ if (!empty($_POST['code']))
     <br/>
     <aside class="col-md-4 sidebar sidebar-right" id="listexp">
         <h2 > Liste des expériences existantes : </h2>
-        <?php foreach ($stmt as $experience) { ?>
+        <?php
+
+        // Pour chaque expérience à laquelle l'expérimentateur participe, on affiche son nom :
+
+        foreach ($stmt as $experience) { ?>
             <article>
                 <h3><a class="nom_experience"
                        href="PageAcceuilExperience.php?id=<?= $experience['exr_id'] ?>"><?php echo $experience['exr_nom'] ?></a>

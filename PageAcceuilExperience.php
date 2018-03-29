@@ -4,13 +4,21 @@
 session_start();
 
 require('connect_to_quest.php');
+
 $idExperience = $_GET['id'];
+// On va chercher dans la BDD toutes les informations concernant cette expérience :
+
 $stmt = $BDD->prepare('select * from experience where exr_id=?');
 $stmt->execute(array($idExperience));
 $experience = $stmt->fetch();
 
+// On va chercher dans la BDD les campagne appartenant à cette expérience :
+
 $requete = $BDD->prepare('select * from campagne where camp_exr=?');
 $requete->execute(array($idExperience));
+
+// On va chercher dans la BDD les expérimentateurs participant à cette expérience pour
+// pouvoir faire l'affichage du groupe de travail :
 
 $req = $BDD->prepare('select exp from lancer where exr=?');
 $req->execute(array($idExperience));
@@ -76,15 +84,21 @@ $req->execute(array($idExperience));
                             <span id="membre">Membres du groupe de travail :</span>
                             <br/>
                             <?php
+
+                            // Pour chaque expérimentateur, on prepare une requete qui va chercher dans la BDD ses informations personnelles :
+
                             foreach ($req as $id) {
                                 $iden = $id["exp"];
                                 $reque = $BDD->prepare('select * from experiment where exp_id=?');
                                 $reque->execute(array($iden));
-                                foreach ($reque as $nom) {
+                                
+                                // On affiche chacune des informations concernant un expérimentateur pour pouvoir afficher le groupe de travail :
+
+                                foreach ($reque as $info) {
                                     echo '<br/>';
-                                    echo $nom['exp_nom'] . " ";
-                                    echo $nom['exp_prenom'] . " ";
-                                    echo $nom['exp_mail'];
+                                    echo $info['exp_nom'] . " ";
+                                    echo $info['exp_prenom'] . " ";
+                                    echo $info['exp_mail'];
                                 }
                             }
 
