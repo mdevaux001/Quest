@@ -1,5 +1,8 @@
 <?php
 require('connect_to_quest.php');
+
+// Cette page permet grâce à un form de modifier un questionnaire en utilisant la méthode POST
+
 ?>
 
 <!doctype html>
@@ -11,6 +14,10 @@ require('connect_to_quest.php');
 <body id="bodycreationcampagne">
 
 <?php require_once "headerQuest.php";
+
+// On recupère l'id du questionnaire pour le faire passer en get au fichier traitant le form
+// pour pouvoir retourner sur l'ecran d'accueil du questionnaire une fois la modification effectuée :
+
 $idquestio = $_GET['id'];
 ?>
 <br/>

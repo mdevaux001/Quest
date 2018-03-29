@@ -1,5 +1,7 @@
 <?php
 require('connect_to_quest.php');
+// Cette page permet de crée un nouveau questionnaire via un form qui utilise la méthode POST
+
 ?>
 
 <!doctype html>
@@ -11,6 +13,9 @@ require('connect_to_quest.php');
 <body id="bodycreationcampagne">
 
 <?php require_once "headerQuest.php";
+// on recupère l'identifiant de la campagne pour le passer au fichier php qui traite le form
+// Ainsi quand le form aurat été traité on pourra retourner sur la page d'accueil de la campagne
+
 $idCampagne = $_GET['id'];
 ?>
 <br/>

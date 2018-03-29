@@ -4,14 +4,18 @@
 
 require('connect_to_quest.php');
 
+//On verifie que tous les champs du form ont été complétés
+
 if (!empty($_POST['description']) and !empty($_POST['dateDebut'])and !empty($_POST['dateFin']) and !empty($_POST['nom']))
 {
+    // On récupère toutes les données :
+
 	$nom=$_POST['nom'];
 	$desc=$_POST['description'];
 	$dateDeb=$_POST['dateDebut'];
 	$dateFin=$_POST['dateFin'];
-	
-	// Création d'un code à 4 charactères pour l'identifiant : 
+
+    // On crée un identifiant à 4 chiffres, en verifant grâce à une boucle qu'il  n'exite pas déjà :
 
 
     $characts = '1234567890';
@@ -28,19 +32,22 @@ if (!empty($_POST['description']) and !empty($_POST['dateDebut'])and !empty($_PO
             $doublon = false;
         }
     }
-	
 
-	//$requete=$BDD->prepare('INSERT INTO experience(exr_id,exr_nom,exr_desc,dateDeb,dateFin) VALUES(:id,:nom,:description,:dateDebut,:datefin)');
+
+    // On prépare la requête pour insérer les données dans la table expérience :
+
 	$requete=$BDD->prepare('INSERT INTO experience(exr_id,exr_nom,exr_desc,dateDeb,dateFin) VALUES(:id,:nom,:description,:dateDebut,:dateFin)');
 	
 
-	//INSERT INTO `experience` (`exr_id`, `exr_nom`, `exr_desc`, `dateDeb`, `dateFin`) VALUES ('1', 'test', 'test', '2018-03-13', '2018-03-21');
-	$requete->bindValue(':id', $id, PDO::PARAM_STR); 
+	$requete->bindValue(':id', $id, PDO::PARAM_STR);
 	$requete->bindValue(':nom', $nom, PDO::PARAM_STR);  
 	$requete->bindValue(':description', $desc, PDO::PARAM_STR);
 	$requete->bindValue(':dateDebut', $dateDeb, PDO::PARAM_STR);
 	$requete->bindValue(':dateFin', $dateFin, PDO::PARAM_STR);
-	$requete->execute();
+
+	//On exécute la requête
+    $requete->execute();
+// On prépare la requête pour insérer les données dans la table lancer :
 
 	$requete_deux=$BDD->prepare('INSERT INTO lancer(exp,exr) VALUES(:exp,:exr)');
 	$requete_deux->bindValue(':exp',$_SESSION['idEXP'],PDO::PARAM_STR);

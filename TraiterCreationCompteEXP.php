@@ -3,7 +3,12 @@
 
 require("connect_to_quest.php");
 
+//On verifie que tous les champs du form ont été complétés
+
 if (!empty($_POST['prenom']) and !empty($_POST['mdp']) and !empty($_POST['mail']) and !empty($_POST['nom']) and !empty($_POST['orga'])) {
+
+    // On récupère toutes les données :
+
     $nom = $_POST['nom'];
     $prenom = $_POST['prenom'];
     $_SESSION['nomEXP'] = $prenom;
@@ -11,6 +16,7 @@ if (!empty($_POST['prenom']) and !empty($_POST['mdp']) and !empty($_POST['mail']
     $mail = $_POST['mail'];
     $orga = $_POST['orga'];
 
+    // On crée un identifiant à 4 chiffres, en verifant grâce à une boucle qu'il  n'exite pas déjà :
     $characts = '1234567890';
     $doublon = true;
     while ($doublon) {
@@ -26,6 +32,7 @@ if (!empty($_POST['prenom']) and !empty($_POST['mdp']) and !empty($_POST['mail']
         }
     }
 
+    // On prépare la requête pour insérer les données dans la BDD
 
     $requete = $BDD->prepare('INSERT INTO experiment(exp_id,exp_mdp,exp_nom,exp_prenom,exp_org,exp_mail) VALUES(:id,:mdp,:nom,:prenom,:orga,:mail)');
 

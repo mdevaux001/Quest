@@ -1,9 +1,13 @@
 <?php session_start();
 
 require('connect_to_quest.php');
+// on récupère l'identifiant de l'expérience car il sera nécessaire de le passer
+// au fichier de traitement du form par la méthode GET, pour qu'une fois que le form
+// aura été crée on puisse retourner sur la page d'accueil de l'expérience
 
 $idExperience = $_GET['id'];
 
+// Cette page permet de crée une nouvelle campagne via un form qui utilise la méthode POST
 
 
 ?>
@@ -23,7 +27,7 @@ $idExperience = $_GET['id'];
   <br/>
  
   <div class="container" id="conteneurajoutcampagne">
-  	<br/>
+  	<br/>                                                                   <?// on fait passer l'identifiant par la méthode GET ?>
             <form class="form-signin form-horizontal" role="form" action="TraiterCreerCampagne.php?id=<?=$idExperience?>" method="post">
                <div class="form-group">
                     <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">

@@ -6,6 +6,9 @@
 //Affichage d'un message d'erreur en cas de non authentification.
 if (isset($_GET['erreur'])) {
 if ($_GET['erreur']) {
+
+    // Cette page est la page de connexion au site. Il faut entrer son mail et son
+    // mot de passe grâce à un form qui traite les données avec la méthode POST
 ?>
 <script>
     alert("Votre identifiant ou votre mot de passe sont incorrects.");

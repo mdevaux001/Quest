@@ -1,12 +1,17 @@
 <?php session_start();
 require("connect_to_quest.php");
 
+//On verifie que tous les champs du form ont été complétés
+
 if (!empty($_POST['mdp']) and !empty($_POST['mail']) and !empty($_POST['orga'])) {
+
+    // On récupère toutes les données :
 
     $mdp = $_POST['mdp'];
     $mail = $_POST['mail'];
     $orga = $_POST['orga'];
 
+    // On crée un identifiant à 4 chiffres, en verifant grâce à une boucle qu'il  n'exite pas déjà :
 
     $characts = '1234567890';
     $doublon = true;
@@ -22,6 +27,7 @@ if (!empty($_POST['mdp']) and !empty($_POST['mail']) and !empty($_POST['orga']))
             $doublon = false;
         }
     }
+    // On prépare la requête pour insérer les données dans la BDD :
 
     $requete = $BDD->prepare('INSERT INTO user(usr_id,usr_mdp,usr_mail,usr_org) VALUES(:id,:mdp,:mail,:orga)');
 

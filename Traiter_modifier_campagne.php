@@ -1,9 +1,12 @@
 <?php session_start();
 require('connect_to_quest.php');
+// On récupère l'identifiant de la campagne via la méthode GET car il est
+// nécessaire une fois les modifications effectuées pour revenir à la page d'accueil campagne.
 $idCampagne = $_GET['id'];
 
 
-
+// Pour chacun des champs qu'il est possible de modifier, on vérifie si il est empty ou non
+// Si un champs n'est pas empty, on effectue le changement dans la BDD.
 
 
 if (!empty($_POST['description'])  and $_POST['description']!=" " )
@@ -38,5 +41,6 @@ if (!empty($_POST['dateFin']))
     $requete3->execute(array($dateFin,$idCampagne));
 
 }
+
 header("Location:PageAcceuilCampagne.php?id=$idCampagne");
 ?>

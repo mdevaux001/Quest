@@ -1,14 +1,21 @@
 <?php
 session_start();
 require('connect_to_quest.php');
+
+// On recupère les variables super globales :
+
 $loged = $_SESSION['connecte'];
 $_validation_user = $_SESSION['validationUSER'];
 $_validation_exp = $_SESSION['validationEXP'];
 
 ?>
+
 <?php if ($loged)
 {
+    // Si la personne est connectée
 if ($_validation_exp)
+    //  si il s'agit d'un expérimentateur, on affiche ce header :
+
 {
 ?>
 
@@ -35,7 +42,10 @@ if ($_validation_exp)
                     </ul>
                 </li>
                 <?php }
-                if ($_validation_user){ ?>
+
+                if ($_validation_user){
+                // si il s'agit d'un utilisateur, on affiche ce header :
+                ?>
                 <div class="navbar navbar-inverse navbar-fixed-top headroom">
                     <div class="container">
                         <div class="navbar-header">
@@ -61,6 +71,10 @@ if ($_validation_exp)
                                 </li>
                                 <?php }
                                 }
+
+                                // si la personne n'est pas connectée, on affiche ce header :
+
+
                                 else { ?>
                                 <div class="navbar navbar-inverse navbar-fixed-top headroom">
                                     <div class="container">
@@ -84,7 +98,7 @@ if ($_validation_exp)
 
 
                                                     <script>
-
+                                                        // ce script permet l'affichage en page réduite de la page de connexion :
 
                                                         $("#con").click(function () {
                                                             $("#infos").modal({remote: "connexionQuest.php"}, "show");
@@ -95,7 +109,7 @@ if ($_validation_exp)
                                                 </li>
                                                 <?php } ?>
                                             </ul>
-                                        </div><!--/.nav-collapse -->
+                                        </div>
                                     </div>
                                 </div>
 

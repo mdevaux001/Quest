@@ -1,6 +1,11 @@
 <?php session_start();
 
+// Cette page permet grâce à un form de modifier une campagne en utilisant la méthode POST
+
 require('connect_to_quest.php');
+
+// On recupère l'id de la campagne pour le faire passer en get au fichier traitant le form
+// pour pouvoir retourner sur l'ecran d'accueil de la campagne une fois la modification effectuée
 
 $idCampagne = $_GET['id'];
 

@@ -1,6 +1,13 @@
 <?php session_start();
 
+// Cette page permet grâce à un form de modifier une expérience en utilisant la méthode POST
+
+
 require("connect_to_quest.php");
+
+// On recupère l'id de l'expérience pour le faire passer en get au fichier traitant le form
+// pour pouvoir retourner sur l'ecran d'accueil de l'expérience une fois la modification effectuée
+
 $idExperience = $_GET['id'];
 
 ?>

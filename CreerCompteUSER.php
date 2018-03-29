@@ -1,6 +1,8 @@
 <?php
 require('connect_to_quest.php');
 
+// Cette page est la page de création d'un compte utilisateur.
+// On recupère les données grâce à un form qui utilise la méthode POST
 
 ?>
 <!doctype html>

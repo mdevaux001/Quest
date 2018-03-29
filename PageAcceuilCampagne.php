@@ -70,7 +70,7 @@ $stmt->execute(array($idCampagne));
                     <?php foreach ($stmt as $questionnaire) { ?>
                         <article>
                             <h5><a class="nom_questionnaire"
-                                   href="AccueilQuestio.php?id=<?= $idCampagne ?>"><?= $questionnaire["qutaire_titre"] ?></a>
+                                   href="AccueilQuestio.php?id=<?= $questionnaire["qutaire_id"] ?>"><?= $questionnaire["qutaire_titre"] ?></a>
                             </h5>
 
                         </article>

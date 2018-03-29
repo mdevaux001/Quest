@@ -8,13 +8,16 @@ require('connect_to_quest.php');
 <!doctype html>
 <html>
 <?php require_once "head.php";
-$idCampagne = $_GET['id'];
+// On recupère l'identifiant du questionnaire pour afficher les informations du bon questionnaire :
+$idquestio = $_GET['id'];
 
+// On va chercher dans la BDD toutes les informations concernant ce questionnaire
 
-$stmt = $BDD->prepare('select * from questaire where qutaire_camp=?');
-$stmt->execute(array($idCampagne));
+$stmt = $BDD->prepare('select * from questaire where qutaire_id=?');
+$stmt->execute(array($idquestio));
 $questio = $stmt->fetch();
-$idquestio = $questio['qutaire_id'];
+
+// On compte le nombre d'utilisateurs ayant participé au questionnaire :
 
 $requete = $BDD->prepare('select DISTINCT usr from reponse where qutaire=?');
 $requete->execute(array($idquestio));
@@ -36,6 +39,7 @@ $nbparticipant = $requete->rowCount();
         <div class="container">
             <div class="row" id="titreaccueilcamp">
                 <div class="col-md-4-offset-md-2 col-sm-5" >
+
                     <h2><?= $questio["qutaire_titre"] ?></h2>
 
                     <p>

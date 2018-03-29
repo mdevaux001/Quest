@@ -1,5 +1,10 @@
 <?php session_start();
 require('connect_to_quest.php');
+
+// Cette page est l'index du site
+
+// On y accède lorsq'on est pas connecté, on defini les variables super globales :
+
 $_SESSION['connecte']=false;
 $_SESSION['validationEXP']=false;
 $_SESSION['validationUSER']=false;

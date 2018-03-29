@@ -1,13 +1,12 @@
 <?php session_start();
-require('connect_to_quest.php');
+// On récupère l'identifiant questionnaire, pour pouvoir retourner sur la page d'accueil
+// du questionnaire.
 $idquestio = $_GET['id'];
-$stmt1 = $BDD->prepare('SELECT qutaire_camp FROM questaire WHERE qutaire_id=?');
-$stmt1->execute(array($idquestio));
-while ($row = $stmt1->fetch()) {
-    $idCampagne = $row['qutaire_camp'];
-}
 
 
+
+// Pour chacun des champs qu'il est possible de modifier, on vérifie si il est empty ou non
+// Si un champs n'est pas empty, on effectue le changement dans la BDD.
 
 
 
@@ -28,5 +27,5 @@ if (!empty($_POST['nom']) )
 
 }
 
-header("Location:AccueilQuestio.php?id=$idCampagne");
+header("Location:AccueilQuestio.php?id=$idquestio");
 ?>

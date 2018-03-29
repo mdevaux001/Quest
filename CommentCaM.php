@@ -1,6 +1,8 @@
 <?php session_start();
 require('connect_to_quest.php');
 
+// Cette page est une page d'information sur fonctionnement du site web
+
 ?>
 
 <!doctype html>
